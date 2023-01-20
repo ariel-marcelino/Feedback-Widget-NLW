@@ -7,3 +7,5 @@ export interface SendMailData {
 export interface MailAdapter{
     sendMail:(data: SendMailData) => Promise<void>;
 }
+
+//teste
